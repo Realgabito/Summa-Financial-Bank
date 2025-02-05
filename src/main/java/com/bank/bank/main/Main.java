@@ -5,6 +5,7 @@ public class Main {
 
 
     public void Menu() {
+        int option = 0;
         
     }
 }
