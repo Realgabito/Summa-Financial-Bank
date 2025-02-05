@@ -1,5 +1,6 @@
 package com.bank.bank.model;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Random;
 
@@ -14,6 +15,7 @@ public class Account {
     private String phoneNumber;    // must be 10 digits and unique
     private LocalDateTime createdAt; 
     private boolean isActive;
+    private LocalDate dateOfBirth;
 
 
 
